@@ -1,0 +1,186 @@
+---
+api_key: <Admin user API key from galaxy_instance>
+galaxy_instance: <Galaxy instance IP>
+tools:
+
+#_____________________________________
+#text manipulation
+#manca add column
+
+- name: 'tables_arithmetic_operations'
+  owner: 'devteam'
+  tool_panel_section_id: 'textutil'
+
+- name: 'column_maker'
+  owner: 'devteam'
+  tool_panel_section_id: 'textutil'
+
+#_________________________________
+#Join, Subtract and Group
+#not sure if collection_column_join is the tool column join
+
+- name: 'subtract_query'
+  owner: 'devteam'
+  tool_panel_section_id: 'group'
+  
+- name: 'column_join'
+  owner: 'jjohnson'
+  tool_panel_section_id: 'group'
+
+#__________________________________
+#converts formats
+#manca BED-to-GFF,GFF-to-BED,Wiggle-to-interval
+
+- name: 'fastqtofasta'
+  owner: 'devteam'
+  tool_panel_section_id: 'convert'
+
+- name: 'tabular_to_fasta'
+  owner: 'devteam'
+  tool_panel_section_id: 'group'
+
+#_______________________________________
+#Extract Features
+
+
+
+#________________________________________
+#fetch sequence
+#manca fasta extract sequence
+
+
+#___________________________________________
+#operate on genomic intervals
+#manca bigwigaverageoverbed
+
+- name: 'count_gff_features'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'intersect'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'get_flanks'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'complement'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'basecoverage'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'flanking_features'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'concat'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'join'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'coverage'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'cluster'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'merge'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+- name: 'subtract'
+  owner: 'devteam'
+  tool_panel_section_label: 'operate on genomic intervals'
+
+#__________________________________________
+#statistic
+
+- name: 't_test_two_samples'
+  owner: 'devteam'
+  tool_panel_section_id: 'stats'
+
+- name: 'pearson_correlation'
+  owner: 'devteam'
+  tool_panel_section_id: 'stats'
+
+- name: 'bed_overlap_significance'
+  owner: 'xuebing'
+  tool_panel_section_id: 'stats'
+
+#___________________________________________
+#graph/display Data
+#VCF to MAF Custom Track for display at UCSC presente in più
+
+- name: 'xy_plot'
+  owner: 'devteam'
+  tool_panel_section_id: 'plots'
+
+#_____________________________________________
+#multivariate analysis
+
+- name: 'canonical_correlation_analysis'
+  owner: 'devteam'
+  tool_panel_section_label: 'multivariate analysis'
+
+- name: 'principal_component_analysis'
+  owner: 'devteam'
+  tool_panel_section_label: 'multivariate analysis'
+
+#________________________________________________
+#multiple regression
+
+- name: 'partialr_square'
+  owner: 'devteam'
+  tool_panel_section_label: 'multiple regression'
+
+- name: 'rcve'
+  owner: 'devteam'
+  tool_panel_section_label: 'multiple regression'
+
+- name: 'best_regression_subsets'
+  owner: 'devteam'
+  tool_panel_section_label: 'multiple regression'
+
+- name: 'logistic_regression_vif'
+  owner: 'devteam'
+  tool_panel_section_label: 'multiple regression'
+
+- name: 'linear_regression'
+  owner: 'devteam'
+  tool_panel_section_label: 'multiple regression'
+
+#___________________________________________
+#FASTA manipulation
+
+- name: 'seqtk'
+  owner: 'iuc'
+  tool_panel_section_label: 'FASTA manipulation'
+
+- name: 'fastx_trimmer'
+  owner: 'devteam'
+  tool_panel_section_label: 'FASTA manipulation'
+
+- name: 'fastx_reverse_complement'
+  owner: 'devteam'
+  tool_panel_section_label: 'FASTA manipulation'
+
+- name: 'fasta_formatter'
+  owner: 'devteam'
+  tool_panel_section_label: 'FASTA manipulation'
+
+- name: 'fasta_filter_by_length'
+  owner: 'devteam'
+  tool_panel_section_label: 'FASTA manipulation'
+
+- name: 'fasta_compute_length'
+  owner: 'devteam'
+  tool_panel_section_label: 'FASTA manipulation'

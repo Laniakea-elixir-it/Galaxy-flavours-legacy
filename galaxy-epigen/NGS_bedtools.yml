@@ -1,0 +1,11 @@
+---
+api_key: <Admin user API key from galaxy_instance>
+galaxy_instance: <Galaxy instance IP>
+tools:
+
+#____________________________________
+#NGS: BEDtools
+
+- name: 'bedtools'
+  owner: 'iuc'
+  tool_panel_section_label: 'NGS: BEDtools'

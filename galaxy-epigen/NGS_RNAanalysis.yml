@@ -1,0 +1,59 @@
+---
+api_key: <Admin user API key from galaxy_instance>
+galaxy_instance: <Galaxy instance IP>
+tools:
+
+#____________________________________
+#NGS:RNA analysis
+
+- name: 'edger'
+  owner: 'iuc'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'htseq_count'
+  owner: 'lparsons'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+#- name: 'cuffdiff'
+#  owner: 'devteam'
+#  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'deseq_hts'
+  owner: 'vipints'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'package_rsem_1_1_17'
+  owner: 'jjohnson'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'rsem'
+  owner: 'jjohnson'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'filter_transcripts_via_tracking'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'tophat2'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'tophat'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+#- name: 'cufflinks'
+#  owner: 'devteam'
+#  tool_panel_section_label: 'NGS: RNA analysis'
+
+#- name: 'cuffcompare'
+#  owner: 'devteam'
+#  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'trinity'
+  owner: 'iuc'
+  tool_panel_section_label: 'NGS: RNA analysis'
+
+- name: 'express'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: RNA analysis'

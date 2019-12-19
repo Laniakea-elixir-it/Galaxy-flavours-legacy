@@ -1,0 +1,19 @@
+---
+api_key: <Admin user API key from galaxy_instance>
+galaxy_instance: <Galaxy instance IP>
+tools:
+
+#____________________________________
+#NGS:mapping
+
+- name: 'bowtie2'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: mapping'
+
+- name: 'bowtie_wrappers'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: mapping'
+
+- name: 'bwa_wrappers'
+  owner: 'devteam'
+  tool_panel_section_label: 'NGS: mapping'
