@@ -10,24 +10,24 @@ tools:
 
 - name: vinyl
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
 
 - name: vinyl_annovar
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
 
 - name: vinyl_boxplot
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
  
 - name: vinyl_optimizer
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
 
 - name: vinyl_pca
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
 
 - name: vinyl_survival
   owner: elixir-it
-  tool_panel_section_label: "tools"
+  tool_panel_section_label: "VINYL"
