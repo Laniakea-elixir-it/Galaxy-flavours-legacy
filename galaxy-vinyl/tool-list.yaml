@@ -40,12 +40,12 @@ tools:
 
 - name: bedtools
   owner: iuc
-  tool_panel_section_label: "VINYL" 
+  tool_panel_section_label: "VCF_utilities"
 
 - name: package_vcftools_0_1_11
   owner: devteam
-  tool_panel_section_label: "VINYL"
+  tool_panel_section_label: "VCF_utilities"
 
 - name: vcftools_compare
   owner: devteam
-  tool_panel_section_label: "VINYL"
+  tool_panel_section_label: "VCF_utilities"
